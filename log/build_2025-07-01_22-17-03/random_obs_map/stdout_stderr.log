@@ -1,0 +1,21 @@
+running egg_info
+writing ../../build/random_obs_map/random_obs_map.egg-info/PKG-INFO
+writing dependency_links to ../../build/random_obs_map/random_obs_map.egg-info/dependency_links.txt
+writing entry points to ../../build/random_obs_map/random_obs_map.egg-info/entry_points.txt
+writing requirements to ../../build/random_obs_map/random_obs_map.egg-info/requires.txt
+writing top-level names to ../../build/random_obs_map/random_obs_map.egg-info/top_level.txt
+reading manifest file '../../build/random_obs_map/random_obs_map.egg-info/SOURCES.txt'
+writing manifest file '../../build/random_obs_map/random_obs_map.egg-info/SOURCES.txt'
+running build
+running build_py
+running install
+running install_lib
+running install_data
+creating /home/yunfeibi/Ros_projects/ros2-randomly-generate-obstacles/install/random_obs_map/share/random_obs_map/worlds
+copying worlds/myworld.world -> /home/yunfeibi/Ros_projects/ros2-randomly-generate-obstacles/install/random_obs_map/share/random_obs_map/worlds
+running install_egg_info
+removing '/home/yunfeibi/Ros_projects/ros2-randomly-generate-obstacles/install/random_obs_map/lib/python3.8/site-packages/random_obs_map-0.0.0-py3.8.egg-info' (and everything under it)
+Copying ../../build/random_obs_map/random_obs_map.egg-info to /home/yunfeibi/Ros_projects/ros2-randomly-generate-obstacles/install/random_obs_map/lib/python3.8/site-packages/random_obs_map-0.0.0-py3.8.egg-info
+running install_scripts
+Installing generate script to /home/yunfeibi/Ros_projects/ros2-randomly-generate-obstacles/install/random_obs_map/lib/random_obs_map
+writing list of installed files to '/home/yunfeibi/Ros_projects/ros2-randomly-generate-obstacles/build/random_obs_map/install.log'

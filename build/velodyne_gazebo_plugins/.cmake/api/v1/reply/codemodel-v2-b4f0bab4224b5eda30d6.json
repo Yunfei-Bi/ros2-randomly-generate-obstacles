@@ -1,0 +1,78 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"hasInstallRule" : true,
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.10.2"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2
+					]
+				}
+			],
+			"name" : "",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "velodyne_gazebo_plugins",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "gazebo_ros_velodyne_laser::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-gazebo_ros_velodyne_laser-0245f71bbf4158b1b140.json",
+					"name" : "gazebo_ros_velodyne_laser",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uninstall-f22b32be85105c687b5c.json",
+					"name" : "uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "velodyne_gazebo_plugins_uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-velodyne_gazebo_plugins_uninstall-6037af02961e6d6e97f0.json",
+					"name" : "velodyne_gazebo_plugins_uninstall",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/yunfeibi/Ros_projects/ros2-randomly-generate-obstacles/build/velodyne_gazebo_plugins",
+		"source" : "/home/yunfeibi/Ros_projects/ros2-randomly-generate-obstacles/src/velodyne_simulator/velodyne_gazebo_plugins"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 0
+	}
+}

@@ -10,7 +10,7 @@ colcon build
 
 source install/setup.bash
 
-ros2 run src generate.launch.py
+ros2 run random_obs_map generate.launch.py
 ```
 
 **result**

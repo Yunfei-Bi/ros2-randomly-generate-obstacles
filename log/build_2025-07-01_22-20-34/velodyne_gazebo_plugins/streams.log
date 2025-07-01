@@ -1,0 +1,136 @@
+[0.018s] Invoking command in '/home/yunfeibi/Ros_projects/ros2-randomly-generate-obstacles/build/velodyne_gazebo_plugins': CMAKE_PREFIX_PATH=/home/yunfeibi/Ros_projects/ros2-randomly-generate-obstacles/install/random_obs_map:/home/yunfeibi/Ros_projects/ros2-randomly-generate-obstacles/install/src:/opt/ros/rolling /usr/bin/cmake /home/yunfeibi/Ros_projects/ros2-randomly-generate-obstacles/src/velodyne_simulator/velodyne_gazebo_plugins -DCMAKE_INSTALL_PREFIX=/home/yunfeibi/Ros_projects/ros2-randomly-generate-obstacles/install/velodyne_gazebo_plugins
+[0.066s] -- The C compiler identification is GNU 9.4.0
+[0.113s] -- The CXX compiler identification is GNU 9.4.0
+[0.118s] -- Check for working C compiler: /usr/bin/cc
+[0.176s] -- Check for working C compiler: /usr/bin/cc -- works
+[0.176s] -- Detecting C compiler ABI info
+[0.238s] -- Detecting C compiler ABI info - done
+[0.248s] -- Detecting C compile features
+[0.248s] -- Detecting C compile features - done
+[0.250s] -- Check for working CXX compiler: /usr/bin/c++
+[0.322s] -- Check for working CXX compiler: /usr/bin/c++ -- works
+[0.323s] -- Detecting CXX compiler ABI info
+[0.395s] -- Detecting CXX compiler ABI info - done
+[0.406s] -- Detecting CXX compile features
+[0.406s] -- Detecting CXX compile features - done
+[0.408s] -- Found ament_cmake: 1.2.1 (/opt/ros/rolling/share/ament_cmake/cmake)
+[0.515s] -- Found Python3: /usr/bin/python3.8 (found version "3.8.10") found components: Interpreter 
+[0.581s] -- Found gazebo_dev: 3.5.2 (/opt/ros/rolling/share/gazebo_dev/cmake)
+[0.586s] -- Found PkgConfig: /usr/bin/pkg-config (found version "0.29.1") 
+[0.590s] -- Checking for module 'bullet>=2.82'
+[0.608s] --   Found bullet, version 2.88
+[0.769s] -- Found ccd: /usr/include (found suitable version "2.0", minimum required is "2.0") 
+[0.856s] -- Found fcl: /usr/include (found suitable version "0.5.0", minimum required is "0.3.2") 
+[0.937s] -- Found assimp: /usr/include (found version "5.0.0") 
+[0.958s] -- Found DART: /usr/include (Required is at least version "6.6") found components: dart 
+[1.265s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.71.0/BoostConfig.cmake (found suitable version "1.71.0", minimum required is "1.40.0") found components: thread system filesystem program_options regex iostreams date_time 
+[1.282s] -- Found Protobuf: /usr/lib/x86_64-linux-gnu/libprotobuf.so;-lpthread (found version "3.6.1") 
+[1.286s] -- Looking for ignition-math6 -- found version 6.15.1
+[1.291s] -- Searching for dependencies of ignition-math6
+[1.292s] -- Looking for OGRE...
+[1.293s] -- OGRE_PREFIX_WATCH changed.
+[1.297s] -- Checking for module 'OGRE'
+[1.321s] --   Found OGRE, version 1.9.0
+[1.387s] -- Found Ogre Ghadamon (1.9.0)
+[1.397s] -- Found OGRE: optimized;/usr/lib/x86_64-linux-gnu/libOgreMain.so;debug;/usr/lib/x86_64-linux-gnu/libOgreMain.so
+[1.405s] -- Looking for OGRE_Paging...
+[1.409s] -- Found OGRE_Paging: optimized;/usr/lib/x86_64-linux-gnu/libOgrePaging.so;debug;/usr/lib/x86_64-linux-gnu/libOgrePaging.so
+[1.410s] -- Looking for OGRE_Terrain...
+[1.414s] -- Found OGRE_Terrain: optimized;/usr/lib/x86_64-linux-gnu/libOgreTerrain.so;debug;/usr/lib/x86_64-linux-gnu/libOgreTerrain.so
+[1.414s] -- Looking for OGRE_Property...
+[1.418s] -- Found OGRE_Property: optimized;/usr/lib/x86_64-linux-gnu/libOgreProperty.so;debug;/usr/lib/x86_64-linux-gnu/libOgreProperty.so
+[1.418s] -- Looking for OGRE_RTShaderSystem...
+[1.423s] -- Found OGRE_RTShaderSystem: optimized;/usr/lib/x86_64-linux-gnu/libOgreRTShaderSystem.so;debug;/usr/lib/x86_64-linux-gnu/libOgreRTShaderSystem.so
+[1.423s] -- Looking for OGRE_Volume...
+[1.428s] -- Found OGRE_Volume: optimized;/usr/lib/x86_64-linux-gnu/libOgreVolume.so;debug;/usr/lib/x86_64-linux-gnu/libOgreVolume.so
+[1.428s] -- Looking for OGRE_Overlay...
+[1.433s] -- Found OGRE_Overlay: optimized;/usr/lib/x86_64-linux-gnu/libOgreOverlay.so;debug;/usr/lib/x86_64-linux-gnu/libOgreOverlay.so
+[1.530s] -- Looking for ignition-math6 -- found version 6.15.1
+[1.532s] -- Looking for ignition-transport8 -- found version 8.5.0
+[1.532s] -- Searching for dependencies of ignition-transport8
+[1.560s] -- Config-file not installed for ZeroMQ -- checking for pkg-config
+[1.564s] -- Checking for module 'libzmq >= 4'
+[1.588s] --   Found libzmq , version 4.3.2
+[1.656s] -- Found ZeroMQ: TRUE (Required is at least version "4") 
+[1.660s] -- Checking for module 'uuid'
+[1.683s] --   Found uuid, version 2.34.0
+[1.749s] -- Found UUID: TRUE  
+[1.752s] -- Looking for ignition-msgs5 -- found version 5.11.0
+[1.752s] -- Searching for dependencies of ignition-msgs5
+[1.771s] -- Found Protobuf: /usr/lib/x86_64-linux-gnu/libprotobuf.so;-lpthread (found suitable version "3.6.1", minimum required is "3") 
+[1.771s] -- Looking for ignition-math6 -- found version 6.15.1
+[1.775s] -- Checking for module 'tinyxml2'
+[1.800s] --   Found tinyxml2, version 6.2.0
+[1.859s] -- Looking for ignition-msgs5 -- found version 5.11.0
+[1.862s] -- Looking for ignition-common3 -- found version 3.17.0
+[1.862s] -- Searching for dependencies of ignition-common3
+[1.862s] -- Looking for dlfcn.h - found
+[1.863s] -- Looking for libdl - found
+[1.865s] -- Found DL: TRUE  
+[1.872s] -- Searching for <ignition-common3> component [graphics]
+[1.874s] -- Looking for ignition-common3-graphics -- found version 3.17.0
+[1.874s] -- Searching for dependencies of ignition-common3-graphics
+[1.874s] -- Looking for ignition-math6 -- found version 6.15.1
+[1.877s] -- Looking for ignition-fuel_tools4 -- found version 4.9.1
+[1.877s] -- Searching for dependencies of ignition-fuel_tools4
+[1.984s] -- Found CURL: /usr/lib/x86_64-linux-gnu/libcurl.so (found version "7.68.0")  
+[1.992s] -- Checking for module 'jsoncpp'
+[2.015s] --   Found jsoncpp, version 1.7.4
+[2.074s] -- Found JSONCPP: TRUE  
+[2.080s] -- Checking for module 'libzip'
+[2.101s] --   Found libzip, version 1.5.1
+[2.160s] -- Found ZIP: TRUE  
+[2.160s] -- Looking for ignition-common3 -- found version 3.17.0
+[2.160s] -- Looking for ignition-math6 -- found version 6.15.1
+[2.161s] -- Looking for ignition-msgs5 -- found version 5.11.0
+[2.162s] -- Gazebo version: 11.15
+[2.164s] -- Found gazebo_ros: 3.5.2 (/opt/ros/rolling/share/gazebo_ros/cmake)
+[2.215s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[2.222s] -- Found rosidl_adapter: 3.0.1 (/opt/ros/rolling/share/rosidl_adapter/cmake)
+[2.261s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[2.316s] -- Found rmw_implementation_cmake: 5.1.0 (/opt/ros/rolling/share/rmw_implementation_cmake/cmake)
+[2.319s] -- Found rmw_fastrtps_cpp: 6.1.2 (/opt/ros/rolling/share/rmw_fastrtps_cpp/cmake)
+[2.438s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "1.1.1f")  
+[2.463s] -- Found FastRTPS: /opt/ros/rolling/include  
+[2.506s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[2.643s] -- Found gazebo_msgs: 3.5.2 (/opt/ros/rolling/share/gazebo_msgs/cmake)
+[2.863s] -- Found sensor_msgs: 4.0.0 (/opt/ros/rolling/share/sensor_msgs/cmake)
+[2.927s] -- Found tf2: 0.21.0 (/opt/ros/rolling/share/tf2/cmake)
+[3.004s] -- Configuring done
+[3.031s] -- Generating done
+[3.038s] -- Build files have been written to: /home/yunfeibi/Ros_projects/ros2-randomly-generate-obstacles/build/velodyne_gazebo_plugins
+[3.047s] Invoked command in '/home/yunfeibi/Ros_projects/ros2-randomly-generate-obstacles/build/velodyne_gazebo_plugins' returned '0': CMAKE_PREFIX_PATH=/home/yunfeibi/Ros_projects/ros2-randomly-generate-obstacles/install/random_obs_map:/home/yunfeibi/Ros_projects/ros2-randomly-generate-obstacles/install/src:/opt/ros/rolling /usr/bin/cmake /home/yunfeibi/Ros_projects/ros2-randomly-generate-obstacles/src/velodyne_simulator/velodyne_gazebo_plugins -DCMAKE_INSTALL_PREFIX=/home/yunfeibi/Ros_projects/ros2-randomly-generate-obstacles/install/velodyne_gazebo_plugins
+[3.050s] Invoking command in '/home/yunfeibi/Ros_projects/ros2-randomly-generate-obstacles/build/velodyne_gazebo_plugins': CMAKE_PREFIX_PATH=/home/yunfeibi/Ros_projects/ros2-randomly-generate-obstacles/install/random_obs_map:/home/yunfeibi/Ros_projects/ros2-randomly-generate-obstacles/install/src:/opt/ros/rolling /usr/bin/cmake --build /home/yunfeibi/Ros_projects/ros2-randomly-generate-obstacles/build/velodyne_gazebo_plugins -- -j12 -l12
+[3.095s] [35m[1mScanning dependencies of target gazebo_ros_velodyne_laser[0m
+[3.236s] [ 50%] [32mBuilding CXX object CMakeFiles/gazebo_ros_velodyne_laser.dir/src/GazeboRosVelodyneLaser.cpp.o[0m
+[12.341s] [100%] [32m[1mLinking CXX shared library libgazebo_ros_velodyne_laser.so[0m
+[12.789s] [100%] Built target gazebo_ros_velodyne_laser
+[12.801s] Invoked command in '/home/yunfeibi/Ros_projects/ros2-randomly-generate-obstacles/build/velodyne_gazebo_plugins' returned '0': CMAKE_PREFIX_PATH=/home/yunfeibi/Ros_projects/ros2-randomly-generate-obstacles/install/random_obs_map:/home/yunfeibi/Ros_projects/ros2-randomly-generate-obstacles/install/src:/opt/ros/rolling /usr/bin/cmake --build /home/yunfeibi/Ros_projects/ros2-randomly-generate-obstacles/build/velodyne_gazebo_plugins -- -j12 -l12
+[12.804s] Invoking command in '/home/yunfeibi/Ros_projects/ros2-randomly-generate-obstacles/build/velodyne_gazebo_plugins': CMAKE_PREFIX_PATH=/home/yunfeibi/Ros_projects/ros2-randomly-generate-obstacles/install/random_obs_map:/home/yunfeibi/Ros_projects/ros2-randomly-generate-obstacles/install/src:/opt/ros/rolling /usr/bin/cmake --install /home/yunfeibi/Ros_projects/ros2-randomly-generate-obstacles/build/velodyne_gazebo_plugins
+[12.814s] -- Install configuration: ""
+[12.814s] -- Installing: /home/yunfeibi/Ros_projects/ros2-randomly-generate-obstacles/install/velodyne_gazebo_plugins/share/velodyne_gazebo_plugins/environment/library_path.sh
+[12.814s] -- Installing: /home/yunfeibi/Ros_projects/ros2-randomly-generate-obstacles/install/velodyne_gazebo_plugins/share/velodyne_gazebo_plugins/environment/library_path.dsv
+[12.815s] -- Installing: /home/yunfeibi/Ros_projects/ros2-randomly-generate-obstacles/install/velodyne_gazebo_plugins/share/ament_index/resource_index/package_run_dependencies/velodyne_gazebo_plugins
+[12.815s] -- Installing: /home/yunfeibi/Ros_projects/ros2-randomly-generate-obstacles/install/velodyne_gazebo_plugins/share/ament_index/resource_index/parent_prefix_path/velodyne_gazebo_plugins
+[12.815s] -- Installing: /home/yunfeibi/Ros_projects/ros2-randomly-generate-obstacles/install/velodyne_gazebo_plugins/share/velodyne_gazebo_plugins/environment/ament_prefix_path.sh
+[12.815s] -- Installing: /home/yunfeibi/Ros_projects/ros2-randomly-generate-obstacles/install/velodyne_gazebo_plugins/share/velodyne_gazebo_plugins/environment/ament_prefix_path.dsv
+[12.816s] -- Installing: /home/yunfeibi/Ros_projects/ros2-randomly-generate-obstacles/install/velodyne_gazebo_plugins/share/velodyne_gazebo_plugins/environment/path.sh
+[12.816s] -- Installing: /home/yunfeibi/Ros_projects/ros2-randomly-generate-obstacles/install/velodyne_gazebo_plugins/share/velodyne_gazebo_plugins/environment/path.dsv
+[12.816s] -- Installing: /home/yunfeibi/Ros_projects/ros2-randomly-generate-obstacles/install/velodyne_gazebo_plugins/share/velodyne_gazebo_plugins/local_setup.bash
+[12.816s] -- Installing: /home/yunfeibi/Ros_projects/ros2-randomly-generate-obstacles/install/velodyne_gazebo_plugins/share/velodyne_gazebo_plugins/local_setup.sh
+[12.816s] -- Installing: /home/yunfeibi/Ros_projects/ros2-randomly-generate-obstacles/install/velodyne_gazebo_plugins/share/velodyne_gazebo_plugins/local_setup.zsh
+[12.816s] -- Installing: /home/yunfeibi/Ros_projects/ros2-randomly-generate-obstacles/install/velodyne_gazebo_plugins/share/velodyne_gazebo_plugins/local_setup.dsv
+[12.816s] -- Installing: /home/yunfeibi/Ros_projects/ros2-randomly-generate-obstacles/install/velodyne_gazebo_plugins/share/velodyne_gazebo_plugins/package.dsv
+[12.817s] -- Installing: /home/yunfeibi/Ros_projects/ros2-randomly-generate-obstacles/install/velodyne_gazebo_plugins/share/ament_index/resource_index/packages/velodyne_gazebo_plugins
+[12.817s] -- Installing: /home/yunfeibi/Ros_projects/ros2-randomly-generate-obstacles/install/velodyne_gazebo_plugins/share/velodyne_gazebo_plugins/cmake/ament_cmake_export_libraries-extras.cmake
+[12.817s] -- Installing: /home/yunfeibi/Ros_projects/ros2-randomly-generate-obstacles/install/velodyne_gazebo_plugins/share/velodyne_gazebo_plugins/cmake/ament_cmake_export_include_directories-extras.cmake
+[12.817s] -- Installing: /home/yunfeibi/Ros_projects/ros2-randomly-generate-obstacles/install/velodyne_gazebo_plugins/share/velodyne_gazebo_plugins/cmake/ament_cmake_export_dependencies-extras.cmake
+[12.817s] -- Installing: /home/yunfeibi/Ros_projects/ros2-randomly-generate-obstacles/install/velodyne_gazebo_plugins/share/velodyne_gazebo_plugins/cmake/velodyne_gazebo_pluginsConfig.cmake
+[12.817s] -- Installing: /home/yunfeibi/Ros_projects/ros2-randomly-generate-obstacles/install/velodyne_gazebo_plugins/share/velodyne_gazebo_plugins/cmake/velodyne_gazebo_pluginsConfig-version.cmake
+[12.818s] -- Installing: /home/yunfeibi/Ros_projects/ros2-randomly-generate-obstacles/install/velodyne_gazebo_plugins/share/velodyne_gazebo_plugins/package.xml
+[12.818s] -- Installing: /home/yunfeibi/Ros_projects/ros2-randomly-generate-obstacles/install/velodyne_gazebo_plugins/include
+[12.818s] -- Installing: /home/yunfeibi/Ros_projects/ros2-randomly-generate-obstacles/install/velodyne_gazebo_plugins/include/velodyne_gazebo_plugins
+[12.818s] -- Installing: /home/yunfeibi/Ros_projects/ros2-randomly-generate-obstacles/install/velodyne_gazebo_plugins/include/velodyne_gazebo_plugins/GazeboRosVelodyneLaser.h
+[12.818s] -- Installing: /home/yunfeibi/Ros_projects/ros2-randomly-generate-obstacles/install/velodyne_gazebo_plugins/lib/libgazebo_ros_velodyne_laser.so
+[12.823s] -- Set runtime path of "/home/yunfeibi/Ros_projects/ros2-randomly-generate-obstacles/install/velodyne_gazebo_plugins/lib/libgazebo_ros_velodyne_laser.so" to ""
+[12.825s] Invoked command in '/home/yunfeibi/Ros_projects/ros2-randomly-generate-obstacles/build/velodyne_gazebo_plugins' returned '0': CMAKE_PREFIX_PATH=/home/yunfeibi/Ros_projects/ros2-randomly-generate-obstacles/install/random_obs_map:/home/yunfeibi/Ros_projects/ros2-randomly-generate-obstacles/install/src:/opt/ros/rolling /usr/bin/cmake --install /home/yunfeibi/Ros_projects/ros2-randomly-generate-obstacles/build/velodyne_gazebo_plugins

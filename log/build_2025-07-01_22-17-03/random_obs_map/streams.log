@@ -1,0 +1,23 @@
+[0.463s] Invoking command in '/home/yunfeibi/Ros_projects/ros2-randomly-generate-obstacles/src/random_obs_map': PYTHONPATH=/home/yunfeibi/Ros_projects/ros2-randomly-generate-obstacles/build/random_obs_map/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/yunfeibi/Ros_projects/ros2-randomly-generate-obstacles/install/random_obs_map/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/random_obs_map build --build-base /home/yunfeibi/Ros_projects/ros2-randomly-generate-obstacles/build/random_obs_map/build install --record /home/yunfeibi/Ros_projects/ros2-randomly-generate-obstacles/build/random_obs_map/install.log --single-version-externally-managed install_data
+[0.619s] running egg_info
+[0.619s] writing ../../build/random_obs_map/random_obs_map.egg-info/PKG-INFO
+[0.620s] writing dependency_links to ../../build/random_obs_map/random_obs_map.egg-info/dependency_links.txt
+[0.620s] writing entry points to ../../build/random_obs_map/random_obs_map.egg-info/entry_points.txt
+[0.620s] writing requirements to ../../build/random_obs_map/random_obs_map.egg-info/requires.txt
+[0.620s] writing top-level names to ../../build/random_obs_map/random_obs_map.egg-info/top_level.txt
+[0.643s] reading manifest file '../../build/random_obs_map/random_obs_map.egg-info/SOURCES.txt'
+[0.644s] writing manifest file '../../build/random_obs_map/random_obs_map.egg-info/SOURCES.txt'
+[0.644s] running build
+[0.644s] running build_py
+[0.645s] running install
+[0.646s] running install_lib
+[0.648s] running install_data
+[0.648s] creating /home/yunfeibi/Ros_projects/ros2-randomly-generate-obstacles/install/random_obs_map/share/random_obs_map/worlds
+[0.648s] copying worlds/myworld.world -> /home/yunfeibi/Ros_projects/ros2-randomly-generate-obstacles/install/random_obs_map/share/random_obs_map/worlds
+[0.648s] running install_egg_info
+[0.650s] removing '/home/yunfeibi/Ros_projects/ros2-randomly-generate-obstacles/install/random_obs_map/lib/python3.8/site-packages/random_obs_map-0.0.0-py3.8.egg-info' (and everything under it)
+[0.651s] Copying ../../build/random_obs_map/random_obs_map.egg-info to /home/yunfeibi/Ros_projects/ros2-randomly-generate-obstacles/install/random_obs_map/lib/python3.8/site-packages/random_obs_map-0.0.0-py3.8.egg-info
+[0.652s] running install_scripts
+[0.663s] Installing generate script to /home/yunfeibi/Ros_projects/ros2-randomly-generate-obstacles/install/random_obs_map/lib/random_obs_map
+[0.663s] writing list of installed files to '/home/yunfeibi/Ros_projects/ros2-randomly-generate-obstacles/build/random_obs_map/install.log'
+[0.677s] Invoked command in '/home/yunfeibi/Ros_projects/ros2-randomly-generate-obstacles/src/random_obs_map' returned '0': PYTHONPATH=/home/yunfeibi/Ros_projects/ros2-randomly-generate-obstacles/build/random_obs_map/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/yunfeibi/Ros_projects/ros2-randomly-generate-obstacles/install/random_obs_map/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/random_obs_map build --build-base /home/yunfeibi/Ros_projects/ros2-randomly-generate-obstacles/build/random_obs_map/build install --record /home/yunfeibi/Ros_projects/ros2-randomly-generate-obstacles/build/random_obs_map/install.log --single-version-externally-managed install_data
