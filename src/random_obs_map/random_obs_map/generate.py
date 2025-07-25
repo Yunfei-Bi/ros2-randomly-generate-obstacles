@@ -53,19 +53,19 @@ class GazeboObjectManager(Node):
             
         self.get_logger().info('所有服务已成功连接')
         
-    def delete_object(self, name):
-        """同步删除障碍物（阻塞直到响应）"""
-        req = DeleteEntity.Request()
-        req.name = name
-        future = self.delete_client.call_async(req)
-        rclpy.spin_until_future_complete(self, future)  # 阻塞等待响应
+    # def delete_object(self, name):
+    #     """同步删除障碍物（阻塞直到响应）"""
+    #     req = DeleteEntity.Request()
+    #     req.name = name
+    #     future = self.delete_client.call_async(req)
+    #     rclpy.spin_until_future_complete(self, future)  # 阻塞等待响应
         
-        if future.result() is not None:
-            self.get_logger().info(f"删除 {name} 结果: {future.result().success}")
-            return future.result().success
-        else:
-            self.get_logger().error(f"删除 {name} 失败: {future.exception()}")
-            return False
+    #     if future.result() is not None:
+    #         self.get_logger().info(f"删除 {name} 结果: {future.result().success}")
+    #         return future.result().success
+    #     else:
+    #         self.get_logger().error(f"删除 {name} 失败: {future.exception()}")
+    #         return False
 
     def spawn_cylinder(self, name, x, y, z=2.0, radius=1.0, height=0.5):
         """同步生成圆柱体，返回服务响应（半径支持随机生成）"""

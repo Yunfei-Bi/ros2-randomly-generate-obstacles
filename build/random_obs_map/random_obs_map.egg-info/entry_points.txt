@@ -1,3 +1,0 @@
-[console_scripts]
-generate = random_obs_map.generate:training_loop
-
